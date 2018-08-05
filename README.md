@@ -16,9 +16,8 @@ O software mostrará um menu com as seguintes opções:
 
 O usuário deve digitar o código correspondente a operação desejada e clicar Enter.
 
-OBS:
-
 Funcionalidades não implementadas:
 3-Depositos
 4-Comprar
 5-Vender
+
