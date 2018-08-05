@@ -188,8 +188,8 @@ func funcaoTopper(traduzir string) bool{
 
     ////////////// AQUI CHAMO O TRAD EM PY
     //// ARQ DIVIDIR EM 4, POR UMA THREAD PARA CADA ARQUIVO  E DPS EXIBIR UM CAT NA ORDEM
-    cmd2 := exec.Command("bash", "-c", "python3 tradutor.py")
-    _, err = cmd2.CombinedOutput()
+    cmd = exec.Command("bash", "-c", "python3 tradutor.py")
+    _, err = cmd.CombinedOutput()
 
     if err != nil {
         log.Fatalf("cmd.Run() failed with %s\n", err)
